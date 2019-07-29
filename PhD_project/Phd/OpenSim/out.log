@@ -1,0 +1,95 @@
+Couldn't find file 'ground.vtp'.
+Couldn't find file 'ground.vtp'.
+Couldn't find file 'anchor1.vtp'.
+Couldn't find file 'anchor1.vtp'.
+Couldn't find file 'anchor2.vtp'.
+Mesh block.vtp not connected to model..ignoring
+Couldn't find file 'ground.vtp'.
+Couldn't find file 'anchor1.vtp'.
+Couldn't find file 'anchor2.vtp'.
+Couldn't find file 'block.vtp'.
+Couldn't find file 'ground.vtp'.
+Couldn't find file 'anchor1.vtp'.
+Couldn't find file 'anchor2.vtp'.
+Couldn't find file 'block.vtp'.
+Couldn't find file 'ground.vtp'.
+Couldn't find file 'anchor1.vtp'.
+Couldn't find file 'anchor2.vtp'.
+Couldn't find file 'block.vtp'.
+Couldn't find file 'ground.vtp'.
+Couldn't find file 'anchor1.vtp'.
+Couldn't find file 'anchor2.vtp'.
+Couldn't find file 'block.vtp'.
+Body 'Block' not connected by a Joint.
+A FreeJoint will be added to connect it to ground.
+Couldn't find file 'ground.vtp'.
+Couldn't find file 'anchor1.vtp'.
+Couldn't find file 'anchor2.vtp'.
+Couldn't find file 'block.vtp'.
+Loaded model TugOfWar from file tug_of_war_muscles_controller.osim
+Couldn't find file 'ground.vtp'.
+Couldn't find file 'anchor1.vtp'.
+Couldn't find file 'anchor2.vtp'.
+Couldn't find file 'block.vtp'.
+Couldn't find file 'ground.vtp'.
+Couldn't find file 'anchor1.vtp'.
+Couldn't find file 'anchor2.vtp'.
+Couldn't find file 'block.vtp'.
+Running tool tugOfWar.
+No external loads will be applied (external loads file not specified).
+Couldn't find file 'ground.vtp'.
+Couldn't find file 'anchor1.vtp'.
+Couldn't find file 'anchor2.vtp'.
+Couldn't find file 'block.vtp'.
+MODEL: TugOfWar
+
+numStates = 17
+numCoordinates = 6
+numSpeeds = 6
+numActuators = 2
+numBodies = 1
+numConstraints = 0
+numProbes = 0
+
+ANALYSES (total: 0)
+
+BODIES (total: 1)
+body[0] = Block. mass: 20
+              moments of inertia:  ~[0,0,0]
+              products of inertia: ~[0,0,0]
+
+JOINTS (total: 1)
+joint[0] = free_Block. parent: ground, child: Block
+
+ACTUATORS (total: 2)
+actuator[0] = muscle1
+actuator[1] = muscle2
+
+STATES (total: 16)
+y[0] = /jointset/free_Block/free_Block_coord_0/value
+y[1] = /jointset/free_Block/free_Block_coord_0/speed
+y[2] = /jointset/free_Block/free_Block_coord_1/value
+y[3] = /jointset/free_Block/free_Block_coord_1/speed
+y[4] = /jointset/free_Block/free_Block_coord_2/value
+y[5] = /jointset/free_Block/free_Block_coord_2/speed
+y[6] = /jointset/free_Block/free_Block_coord_3/value
+y[7] = /jointset/free_Block/free_Block_coord_3/speed
+y[8] = /jointset/free_Block/free_Block_coord_4/value
+y[9] = /jointset/free_Block/free_Block_coord_4/speed
+y[10] = /jointset/free_Block/free_Block_coord_5/value
+y[11] = /jointset/free_Block/free_Block_coord_5/speed
+y[12] = /forceset/muscle1/activation
+y[13] = /forceset/muscle1/fiber_length
+y[14] = /forceset/muscle2/activation
+y[15] = /forceset/muscle2/fiber_length
+
+
+Integrating from 0 to 3
+ForwardTool::run() caught exception 
+SimTK Exception thrown at Integrator.cpp:431:
+  Integrator initialization failed apparently because:
+SimTK Exception thrown at SmallMatrixMixed.h:879:
+  Error detected by Simbody method lapackInverse(Mat<>): Matrix is singular so can't be inverted (Lapack getrf info=1).
+  (Required condition 'info==0' was not met.)
+
+Printing results of investigation tugOfWar to ./.

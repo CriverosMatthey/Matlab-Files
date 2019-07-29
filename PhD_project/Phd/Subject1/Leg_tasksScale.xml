@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSimDocument Version="30000">
+  <IKTaskSet name="generic">
+    <objects>
+      <IKMarkerTask name="LASIS">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>10</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LPSIS">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>10</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RPSIS">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>10</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="SACRA">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RASIS">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>50</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RGT">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>false</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>10</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RTHS">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>50</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RTHF">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>false</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>50</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RTHM">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>50</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RTHI">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>false</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>10</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RLEPI">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>50</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RMEPI">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>false</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>50</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RSHS">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>20</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RSHM">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>false</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RSHF">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>false</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RSHI">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>50</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RLM">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>50</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RMM">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>50</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RCA">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>true</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>50</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RLTOE">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>false</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RMTOE">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>false</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RTOETIP">
+        <!--Whether or not this task will be used during inverse kinematics solve.-->
+        <apply>false</apply>
+        <!--Weight given to a marker or coordinate for solving inverse kinematics problems.-->
+        <weight>1</weight>
+      </IKMarkerTask>
+    </objects>
+    <groups />
+  </IKTaskSet>
+</OpenSimDocument>

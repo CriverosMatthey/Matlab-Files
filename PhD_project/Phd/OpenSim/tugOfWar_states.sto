@@ -1,0 +1,7 @@
+tugOfWar_states
+version=1
+nRows=0
+nColumns=1
+inDegrees=no
+endheader
+time	/jointset/free_Block/free_Block_coord_0/value	/jointset/free_Block/free_Block_coord_0/speed	/jointset/free_Block/free_Block_coord_1/value	/jointset/free_Block/free_Block_coord_1/speed	/jointset/free_Block/free_Block_coord_2/value	/jointset/free_Block/free_Block_coord_2/speed	/jointset/free_Block/free_Block_coord_3/value	/jointset/free_Block/free_Block_coord_3/speed	/jointset/free_Block/free_Block_coord_4/value	/jointset/free_Block/free_Block_coord_4/speed	/jointset/free_Block/free_Block_coord_5/value	/jointset/free_Block/free_Block_coord_5/speed	/forceset/muscle1/activation	/forceset/muscle1/fiber_length	/forceset/muscle2/activation	/forceset/muscle2/fiber_length
