@@ -61,10 +61,10 @@ subjectAge = str2double(datestr(testDate-dob,11));
 
 %% ========== Part 2: Convert .c3d file to .trc ==========
 
-% fileExtC3d = 'static_subject01.c3d';
-% fileNameC3d = [folderPathSubData '\\' subjectName fileExtC3d]; 
-% data = btk_c3d2trc(fileNameC3d);
-% fileNameTrc = regexprep(fileNameC3d,'.c3d','.trc');
+fileExtC3d = 'static_subject01.c3d';
+fileNameC3d = [folderPathSubData '\\' subjectName fileExtC3d]; 
+data = btk_c3d2trc(fileNameC3d);
+fileNameTrc = regexprep(fileNameC3d,'.c3d','.trc');
 
 
 %% ========== Part 3: Create structure ==========
